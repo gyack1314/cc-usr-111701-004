@@ -1,0 +1,15 @@
+{
+  "hub": "https://hub.example.test",
+  "topic": "https://publisher.example.test/feed",
+  "lease_id": "lease-17",
+  "lease_expires": "2026-11-17T11:00:00Z",
+  "signature": "sha256=other",
+  "entries": [
+    {
+      "id": "article-7",
+      "revision": "r2",
+      "source": "https://publisher.example.test/posts/7",
+      "deleted": false
+    }
+  ]
+}

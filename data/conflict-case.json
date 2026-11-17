@@ -1,0 +1,14 @@
+{
+  "kind": "source-records",
+  "protocol": "websub-feed",
+  "collection": "protocol-sample",
+  "source_url": "https://hub.example.test/callback",
+  "assets": [
+    {
+      "path": "conflict-source.bin",
+      "bytes": 351,
+      "sha256": "2461e45522d05a0dd005058e0619abc29a94e46c9cd9c03eab277a07ebb98add"
+    }
+  ],
+  "calls": []
+}
