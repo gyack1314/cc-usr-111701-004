@@ -1,0 +1,52 @@
+{
+  "protocol": "websub-feed",
+  "collection": "sample-004",
+  "records": [
+    {
+      "kind": "lease",
+      "id": "lease-1",
+      "version": "v1",
+      "refs": [],
+      "payload": {
+        "source": "synthetic",
+        "position": 0
+      }
+    },
+    {
+      "kind": "article",
+      "id": "article-2",
+      "version": "v1",
+      "refs": [
+        "lease-1"
+      ],
+      "payload": {
+        "source": "synthetic",
+        "position": 1
+      }
+    },
+    {
+      "kind": "revision",
+      "id": "revision-3",
+      "version": "v1",
+      "refs": [
+        "article-2"
+      ],
+      "payload": {
+        "source": "synthetic",
+        "position": 2
+      }
+    },
+    {
+      "kind": "withdrawal",
+      "id": "withdrawal-4",
+      "version": "v1",
+      "refs": [
+        "revision-3"
+      ],
+      "payload": {
+        "source": "synthetic",
+        "position": 3
+      }
+    }
+  ]
+}
